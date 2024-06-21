@@ -8,7 +8,7 @@ RUN go mod init hello
 
 RUN go build -o hello .
 
-FROM alpine:3.16.8
+FROM scratch
 
 WORKDIR /usr/src/
 
